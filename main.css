@@ -1,2 +1,9 @@
-body {
-background-color: aquamarine}
+body {background-color: gainsboro}
+
+h1  {font-size: 42px;}
+
+p   {
+    color:navy;
+    font-size: 18px;
+    font-family: helvetica;
+    }
