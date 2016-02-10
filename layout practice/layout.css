@@ -76,3 +76,10 @@ header {
 .product-info {
     text-align: right;
 }
+
+#product-reviews {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
