@@ -60,7 +60,6 @@ header {
 }
 
 .feature-image {
-    background:red;
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
@@ -82,4 +81,20 @@ header {
     color: white;
     text-align: center;
     padding: 50px;
+}
+
+footer {
+    display:flex;
+    padding: 15px 10px 15px 10px;
+    font-size: 12pt;
+}
+
+.footer-links {
+flex: 1;
+}
+
+.footer-copyright{
+    flex: 1;
+    margin: 0;
+    text-align: right;
 }
