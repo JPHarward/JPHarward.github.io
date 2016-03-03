@@ -1,0 +1,104 @@
+* {
+   box-sizing: border-box;
+}
+
+.main-container {
+    width:1000px;
+    margin: 0 auto 0 auto;
+}
+
+.promo-container {
+    background-image: url(mist.jpeg);
+    background-size: cover;
+}
+
+header {
+    display:flex;
+}
+
+.branding{
+    background-image: url(elements%20logo.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pill-button {
+    display: inline-block;
+    background: #112344;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.promo{
+    background:#852535;
+    font-size: 20px;
+}
+
+/*Big Promo*/
+
+#big-promo {
+    padding-top: 200px;
+}
+
+.promo-message {
+    width: 60%;
+    padding: 50px;
+}
+
+/*Product Features*/
+
+.product-features, .product-buy-it-now{
+    display: flex;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(elements%20logo.png);
+}
+
+
+.product-buy-it-now {
+    align-items: center;
+}
+
+.product-info {
+    text-align: right;
+}
+
+#product-reviews {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    display:flex;
+    padding: 15px 10px 15px 10px;
+    font-size: 12pt;
+}
+
+.footer-links {
+flex: 1;
+}
+
+.footer-copyright{
+    flex: 1;
+    margin: 0;
+    text-align: right;
+}
