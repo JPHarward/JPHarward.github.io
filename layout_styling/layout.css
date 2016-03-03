@@ -8,7 +8,7 @@
 }
 
 .promo-container {
-    background-image: url(mist.jpeg);
+    background-image: url(skateboard.jpg);
     background-size: cover;
 }
 
@@ -33,6 +33,7 @@ header {
     border-radius: 20px;
     color: white;
     text-decoration: none;
+    
 }
 
 .promo{
@@ -62,16 +63,43 @@ header {
     padding: 20px;
 }
 
-.feature-image {
+.feature-image-1 {
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
     border-radius: 50%;
     overflow: hidden;
-    background-image: url(elements%20logo.png);
+    background-image: url(wheel_10.jpg);
+    background-size: cover;
+}
+
+.feature-image-2 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(wheel_20.jpg);
+    background-size: cover;
+}
+
+.feature-image-3 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(wheel_30.jpg);
+    background-size: cover;
 }
 
 
+.product-image{
+    width: 1440px;
+    height: 200px;
+    background-image: url(deck.jpg);
+    background-size: cover;
+}
 .product-buy-it-now {
     align-items: center;
 }
@@ -81,7 +109,8 @@ header {
 }
 
 #product-reviews {
-    background: skyblue;
+    background-image: url(fleur.jpg);
+    background-size: cover;
     color: white;
     text-align: center;
     padding: 50px;
@@ -93,12 +122,32 @@ footer {
     font-size: 12pt;
 }
 
+.feature-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    background-image: url(jared.jpg);
+    background-size: cover;
+}
+
 .footer-links {
-flex: 1;
+    flex: 1;
+    color: black;
 }
 
 .footer-copyright{
     flex: 1;
     margin: 0;
     text-align: right;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+    text-align: justify;
 }
