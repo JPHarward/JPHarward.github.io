@@ -141,13 +141,15 @@ footer {
     text-align: right;
 }
 
-h1 {
+h1, h3 {
     font-family: 'Bangers', cursive;
     letter-spacing: 5px;
-    word-spacing: 15px;
+    word-spacing: 2px;
 }
 
 p {
     font-family: 'Special Elite', cursive;
     text-align: justify;
 }
+
+.pill-button:hover{background-color:lightgray;}
