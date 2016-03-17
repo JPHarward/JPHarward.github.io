@@ -114,14 +114,12 @@ p {
     align-content: center;
     color: white;
     text-decoration: none;
-    letter-spacing: 2.3px;
+    letter-spacing: 2.5px;
     width: 200px;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 10px;
-    border-style: solid;
-    border-width: 5px;
     font-size: 20px;
     text-transform: uppercase;
 }
