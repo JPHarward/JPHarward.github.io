@@ -1,0 +1,98 @@
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    font-family: 'orbitron', "tahoma", "arial", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+a:hover {
+    background-color: lightslategray;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+
+.branding {
+    position: relative;
+    left: 220px;
+    width: 150px;
+    height: 45px;
+}
+
+.pill-button {
+    display: inline-block;
+    background: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    background-color: white;
+    padding: 20px;
+}
+x {
+    font-family:"tahoma", "arial", "sans-serif";
+    font-size: 13px;
+}
+.personal_info{
+    flex: 1;
+    text-align: right;
+    left: 20 px;
+}
+
+
+
+
+
+
+h1 {
+    font-family: "orbitron", "tahoma", "arial", "sans-serif";
+    font-size: 36px;
+    text-align: justify;
+    margin: 20px;
+}
+h3 {
+    font-family: "orbitron", "avenir", "arial", "sans-serif";
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.blog-post{
+    height: 900px;
+}
+p {
+    font-family:"tahoma", "arial", "sans-serif";
+    font-size: 13px;
+    text-align: justify;
+    font-size: 16px;
+    margin: 20px;
+}
+.blog-image-1{
+    float: right;
+    background-image: url(Photos/packraft2.jpg);
+    width: 400px;
+    height: 250px;
+    margin: 5px 20px 20px 20px;
+    background-size:cover;
+    background-position: center;
+}
+
+.blog-image-2{
+    float: left;
+    background-image: url(Photos/lake.jpeg);
+    width: 400px;
+    height: 250px;
+    margin: 5px 20px 20px 20px;
+    background-size:cover;    
+}
+

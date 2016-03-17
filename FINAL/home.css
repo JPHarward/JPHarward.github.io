@@ -1,0 +1,185 @@
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    font-family: 'orbitron', "tahoma", "arial", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+a:hover {
+    background-color: lightslategray;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+
+.branding {
+    position: relative;
+    left: 220px;
+    width: 150px;
+    height: 45px;
+}
+
+.pill-button {
+    display: inline-block;
+    background: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.personal_info{
+    flex: 1;
+    text-align: right;
+    left: 20 px;
+}
+
+x {
+    font-family:"tahoma", "arial", "sans-serif";
+    font-size: 13px;
+}
+
+
+
+.sign_up_today {
+    display: flex;
+    width: auto;
+    height: 400px;
+    background-image: url(Photos/sunset.jpg);
+    background-size: cover;
+}
+
+.today{
+    position: relative;
+    top:60px;
+    left: 175px;
+    text-align: justify;
+    height: 225px;
+    width: 450px;
+    background-color: black;
+    color: white;
+    padding: 0 50px 0 50px
+ 
+}
+h1 {
+    font-family: "Courier New";
+    font-size: 36px;
+    text-align: center;
+}
+    
+p {
+    font-family: "Tahoma";
+ }
+
+.pricing {
+    width: 125px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top: 315px;
+    right: 200px;
+    padding-top: 15px;
+    width: 190px;
+    border-color: white;
+    border-width: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+.pricing_button {
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+.feature_container {
+    display: flex;
+    margin: 70px 20px 20px 20px;
+}
+
+.feature_1 feature_2 feature_3 feature_4{
+    background-size:cover;
+    background-position: center;
+}
+
+.feature_1 h1{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.feature_2 h1{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.feature_3 h1{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.feature_4 h1{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.feature_1 p{
+    text-align: center;
+    padding: 8px;
+    line-height: 25px;
+    letter-spacing: 1.3px
+}
+.feature_2 p{
+    text-align: center;
+    padding: 8px;
+    line-height: 25px;
+    letter-spacing: 1.3px;
+}
+.feature_3 p{
+    text-align: center;
+    padding: 8px;
+    line-height: 25px;
+    letter-spacing: 1.3px;
+}
+.feature_4 p{
+    text-align: center;
+    padding: 8px;
+    line-height: 25px;
+    letter-spacing: 1.3px;
+}
+
+.feature-end{
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    line-height: 1.4;
+ 
+}
+
+.feature-big{
+    
+}
+.feature_button{
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    justify-content: center;
+    color: black;
+}

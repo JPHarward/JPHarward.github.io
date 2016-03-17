@@ -1,0 +1,165 @@
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    font-family: 'orbitron', "tahoma", "arial", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+a:hover {
+    background-color: lightslategray;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+
+.branding {
+    position: relative;
+    left: 220px;
+    width: 150px;
+    height: 45px;
+}
+
+.pill-button {
+    display: inline-block;
+    background: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.personal_info{
+    flex: 1;
+    text-align: right;
+    left: 20 px;
+}
+
+x {
+    font-family:"tahoma", "arial", "sans-serif";
+    font-size: 13px;
+}
+
+
+
+
+.pricing-image-big{
+    height: 425px;
+    background-image: url(Photos/climbset.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.pricing-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px 40px 20px
+}
+.pricing-item-1{
+    background-color: lightgray;
+    width: 250px;
+    height: 500px;
+}
+.pricing-item-2{
+    background-color: lightgray;
+    width: 250px;
+    height: 500px;
+}
+.pricing-item-3{
+    background-color: lightgray;
+    width: 250px;
+    height: 500px;
+}
+h1 {
+    font-family: "orbitron", "tahoma", "arial", "sans-serif";
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "tahoma", "arial", "sans-serif";
+    font-size: 14px;
+    text-align: center;
+    font-style: italic
+}
+
+h3 {
+    font-family: "tahoma", "arial", "sans-serif";
+    font-size: 20px;
+    text-align: center;    
+}
+p {
+    font-family: "tahoma", "arial", "sans-serif";
+    font-size: 13px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+.buynow-button{
+    
+    display: inline-block;
+    background: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    letter-spacing: 2.3px;
+    width: 200px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+.blog-button{
+    display: inline-block;
+    background: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2.3px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 90px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+ a:hover buynow-button{
+    background-color: aliceblue;
+}
+
+.not-convinced h1{
+    padding-top: 40px;
+    font-size: 36px;
+}
+.not-convinced p{
+    font-size: 16px;
+    width: 400px;
+    position: relative;
+    left: 245px;
+    padding-bottom: 60px;
+}

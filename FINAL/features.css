@@ -1,0 +1,131 @@
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    font-family: 'orbitron', "tahoma", "arial", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+a:hover {
+    background-color: lightslategray;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+
+.branding {
+    position: relative;
+    left: 220px;
+    width: 150px;
+    height: 45px;
+}
+
+.pill-button {
+    display: inline-block;
+    background: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.personal_info{
+    flex: 1;
+    text-align: right;
+    left: 20 px;
+}
+
+x {
+    font-family:"tahoma", "arial", "sans-serif";
+    font-size: 13px;
+}
+
+
+h3 {
+    font-family: "Tahoma;
+    font-size: 20px;
+    text-align: center;
+    
+}
+    
+p {
+    font-family: "cabin", "avenir", "arial", "sans-serif";
+    font-size: 13px;
+    text-align: center;
+}
+
+.top_box{
+    display: flex;
+    justify-content: center;
+}
+
+.feature_page_left{
+    width: 50%;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.feature_page_right{
+    width: 50%;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+
+
+.feature-image-big{
+    margin: 60px 20px 20px 20px;
+    height: 425px;
+    background-image: url(Photos/cabin-rental-2.jpg);
+    background-size:cover;
+    background-position: bottom;
+}
+.feature-5image{
+    display: flex;
+    margin: 60px 20px 20px 20px;
+    padding: 20px;
+    height: 150px;
+    width: 900px;
+    justify-content: center;
+}
+.pricing-button {
+    display: inline-block;
+    background: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2.3px;
+    width: 200px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.feature-image-big p{
+    font-size: 16px;
+}
