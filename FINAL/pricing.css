@@ -56,7 +56,7 @@ x {
 
 .pricing-image-big{
     height: 425px;
-    background-image: url(Photos/climbset.jpg);
+    background-image: url(photos/climbset.jpg);
     background-size:cover;
     background-position: center;
 }
