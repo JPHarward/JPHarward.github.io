@@ -79,7 +79,7 @@ p {
 }
 .blog-image-1{
     float: right;
-    background-image: url(Photos/packraft2.jpg);
+    background-image: url(photos/packraft2.jpg);
     width: 400px;
     height: 250px;
     margin: 5px 20px 20px 20px;
@@ -89,7 +89,7 @@ p {
 
 .blog-image-2{
     float: left;
-    background-image: url(Photos/lake.jpeg);
+    background-image: url(photos/lake.jpeg);
     width: 400px;
     height: 250px;
     margin: 5px 20px 20px 20px;

@@ -57,7 +57,7 @@ x {
     display: flex;
     width: auto;
     height: 400px;
-    background-image: url(Photos/sunset.jpg);
+    background-image: url(photos/sunset.jpg);
     background-size: cover;
 }
 
